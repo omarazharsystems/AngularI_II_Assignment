@@ -1,0 +1,20 @@
+<div>
+  <h2>Add New Task</h2>
+  <form (submit)="addTask(titleInput.value, priorityInput.value, $event)">
+    <div>
+      <label for="title">Title:</label>
+      <input class="glassmorphic-input" #titleInput type="text" id="title" name="title" required>
+    </div>
+    <div>
+      <label for="priority">Priority:</label>
+      <select class="glassmorphic-input" #priorityInput id="priority" name="priority" required>
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+      </select>
+    </div>
+    <div>
+      <button class="glassmorphic-button" type="submit">Add Task</button>
+    </div>
+  </form>
+</div>

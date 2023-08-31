@@ -1,0 +1,94 @@
+/* Global Styles */
+.glassmorphic-container {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  width: 80%;
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.glassmorphic-input {
+  border: none;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px 0;
+  width: 100%;
+  color: rgb(15, 2, 2);
+}
+
+.glassmorphic-button {
+  background: rgba(0, 0, 0, 0.6);
+  border: none;
+  color: rgba(255, 255, 255, 0.452);
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.glassmorphic-button:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.glassmorphic-output {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  width: 80%;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.glassmorphic-output ul {
+  list-style: none;
+  padding: 0;
+}
+
+.glassmorphic-output li {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px 0;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.glassmorphic-mark-done {
+  background: rgba(0, 0, 0, 0.6);
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.glassmorphic-mark-done:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.clear-button {
+  margin-right: 10px;
+}

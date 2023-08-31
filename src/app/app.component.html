@@ -1,0 +1,12 @@
+<div class="glassmorphic-container">
+    <div class="buttons-container">
+      <app-add-task (taskAdded)="addTask($event)"></app-add-task>
+    </div>
+  </div>
+
+  <div class="output-container">
+    <div class="buttons-container">
+      <!-- <button class="glassmorphic-button clear-button small" (click)="clearOutput()">Clear Output</button> -->
+    </div>
+    <app-task-list [tasks]="tasks" (taskDone)="handleTaskDone($event)"></app-task-list>
+  </div>
